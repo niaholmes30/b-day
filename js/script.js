@@ -65,3 +65,34 @@ if (TheBtn7 && hidden6) {
         TheBtn7.style.display = "none";
     });
 }
+
+
+// hover images
+
+document.addEventListener("DOMContentLoaded", function () {
+    const monroe = document.getElementById("monroe-hover");
+    const rosalee = document.getElementById("rosalee-hover");
+    const adalind = document.getElementById("adalind-hover");
+  
+    monroe.addEventListener("mouseover", () => {
+      monroe.src = "./images/monroeWoged.jpeg";
+    });
+    monroe.addEventListener("mouseout", () => {
+      monroe.src = "./images/monroe.jpeg";
+    });
+  
+    rosalee.addEventListener("mouseover", () => {
+      rosalee.src = "./images/rosaleeWoged.jpeg";
+    });
+    rosalee.addEventListener("mouseout", () => {
+      rosalee.src = "./images/rosalee.jpeg";
+    });
+  
+    adalind.addEventListener("mouseover", () => {
+      adalind.src = "./images/adalindWoged.jpeg";
+    });
+    adalind.addEventListener("mouseout", () => {
+      adalind.src = "./images/adalind.jpeg";
+    });
+  });
+  
