@@ -1,0 +1,215 @@
+.hidden1, .hidden2, .hidden3, .hidden4, .hidden5, .hidden6{
+    display: none;
+}
+
+#monroe-hover:hover{
+    content: url(/images/monroeWoged.jpeg);
+}
+
+#rosalee-hover:hover{
+    content: url(/images/rosaleeWoged.jpeg);
+}
+
+#adalind-hover:hover{
+    content: url(/images/adalindWoged.jpeg);
+}
+
+
+body{
+    font-family: Verdana, Arial;
+    background-color: #eee8df;
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+}
+
+footer{
+    display: none;
+}
+
+#grimm-gang a{
+    text-decoration: none;
+    color: #EF973A;
+    text-transform: capitalize;
+    font-size: 60px;
+}
+
+#the-footer a{
+    text-decoration: none;
+    color: #EF973A;
+    text-transform: capitalize;
+    font-size: 60px;
+}
+
+#the-footer a:hover{
+    cursor: pointer;
+    color: #f9c690;
+}
+
+#grimm-gang a:hover{
+    color: #f9c690;
+}
+
+#intro-msg{
+    text-align: center;
+    margin-top: 250px;
+}
+
+#click-me1{
+    background-color: #EF973A;
+    border: 5px solid black;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 8px;
+    padding: 5px;
+    margin-left: 780px;
+    margin-top: 20px;
+}
+
+#click-me1:hover{
+    cursor: pointer;
+    background-color: #f9c690;
+}
+
+.btn-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 90px;
+}
+
+nav li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #EF973A;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+nav li a:hover{
+    cursor: pointer;
+    background-color: #f9c690;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    padding: 55px;
+    align-items: start;
+  }
+  
+  .image-box {
+    text-align: center;
+    background-color: #F6E7C8;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 60px;
+  }
+  
+  .image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .image-box p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .image-box button {
+    background-color: #EF973A;
+    border: 3px solid black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 15px;
+  }
+  
+  .image-box button:hover {
+    cursor: pointer;
+    background-color: #f9c690;
+  }
+
+  .image-box:hover{
+    transform: scale(1.07);
+    transition: transform 0.3s ease;
+    background-color: #eb871d;
+  }
+
+
+@media screen and (max-width: 390px) {
+    #grimm-gang a{
+        margin-left: 65px;
+        font-size: 30px;
+    }
+
+    footer{
+        display: block;
+        background-color: black;
+        padding: 20px;
+        width: 100%;
+    }
+
+    footer a{
+        padding: 10px 20px;
+        text-decoration: none;
+        background-color: #EF973A;
+        color: black;
+        font-weight: bold;
+        font-size: 13px;
+        border-radius: 10px;
+        margin-left: 110px;
+    }
+
+    #intro-msg{
+        font-size: 20px;
+        padding: 40px;
+    }
+
+    #click-me1{
+        margin-left: 140px;
+        font-size: 20px;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav li a{
+        font-size: 17px;
+    }
+
+    .btn-container{
+        gap: 5px;
+    }
+
+    .image-grid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-box{
+        margin-left: 10px;
+    }
+}
+  
