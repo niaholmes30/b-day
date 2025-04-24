@@ -2,7 +2,7 @@
     display: none;
 }
 
-/* #monroe-hover:hover{
+#monroe-hover:hover{
     content: url(/images/monroeWoged.jpeg);
 }
 
@@ -12,7 +12,7 @@
 
 #adalind-hover:hover{
     content: url(/images/adalindWoged.jpeg);
-} */
+}
 
 
 body{
