@@ -75,24 +75,24 @@ document.addEventListener("DOMContentLoaded", function () {
     const adalind = document.getElementById("adalind-hover");
   
     monroe.addEventListener("mouseover", () => {
-      monroe.src = "./images/monroeWoged.jpeg";
+      monroe.src = "images/monroeWoged.jpeg";
     });
     monroe.addEventListener("mouseout", () => {
-      monroe.src = "./images/monroe.jpeg";
+      monroe.src = "images/monroe.jpeg";
     });
   
     rosalee.addEventListener("mouseover", () => {
-      rosalee.src = "./images/rosaleeWoged.jpeg";
+      rosalee.src = "images/rosaleeWoged.jpeg";
     });
     rosalee.addEventListener("mouseout", () => {
-      rosalee.src = "./images/rosalee.jpeg";
+      rosalee.src = "images/rosalee.jpeg";
     });
   
     adalind.addEventListener("mouseover", () => {
-      adalind.src = "./images/adalindWoged.jpeg";
+      adalind.src = "images/adalindWoged.jpeg";
     });
     adalind.addEventListener("mouseout", () => {
-      adalind.src = "./images/adalind.jpeg";
+      adalind.src = "images/adalind.jpeg";
     });
   });
   
